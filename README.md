@@ -1,7 +1,7 @@
 # wxapp-customTabbar
 custom tabbar for wxapp
 
-##使用步骤如下：
+## 使用步骤如下：
 - **第一步**：找到项目中的tabbarComponent目录，拷贝到你的工程中，然后将tabbarComponent->icon图标替换成你自己的tabbar图片
 
 - **第二步**：到app.json中配置tabBar，这里我就不细说了，只强调闲鱼的tabbar中间的按钮是跳到二级页面，所以不配置在tabBar的list中
