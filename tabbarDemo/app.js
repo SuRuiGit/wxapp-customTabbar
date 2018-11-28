@@ -33,6 +33,10 @@ App({
       }
     })
   },
+  onShow: function () {
+    //隐藏系统tabbar
+    wx.hideTabBar();
+  },
   getSystemInfo: function () {
     let t = this;
     wx.getSystemInfo({
