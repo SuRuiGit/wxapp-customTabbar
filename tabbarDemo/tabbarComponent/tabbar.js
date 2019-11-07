@@ -39,7 +39,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-    isIphoneX: app.globalData.systemInfo.model == "iPhone X" ? true : false,
+    isIphoneX: app.globalData.systemInfo.model.search('iPhone X') != -1 ? true : false
   },
 
   /**
